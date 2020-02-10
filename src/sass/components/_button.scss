@@ -1,0 +1,33 @@
+@import "../abstracts/functions";
+@import "../abstracts/variables";
+
+.link-button {
+  color: rgb(47, 236, 63);
+  background: transparent;
+  border: 2px solid rgb(47, 236, 63);
+  // color: $btn-color;
+  // background: $btn-background;
+  // box-shadow: $btn-aqua-shadow;
+  font-size: $btn-font-size;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px 8px;
+  &:hover {
+    // color: $btn-onhover-color;
+    // background: $btn-onhover-background;
+    background: grey;
+  }
+}
+
+.submit-button {
+  color: $btn-color !important;
+  background: $btn-background !important;
+  font-size: $btn-font-size !important;
+  margin: margin(3) margin(0) margin(2) !important;
+
+  &:hover {
+    color: $btn-onhover-color !important;
+    background: $btn-onhover-background !important;
+    box-shadow: $btn-aqua-shadow !important;
+  }
+}

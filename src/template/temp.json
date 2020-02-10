@@ -1,0 +1,30 @@
+{
+  "Data in localStorage": "LOGGED_USER_KEY & ALL_USERS_KEY & ALL_POSTS_KEY",
+  "LOGGED_USER_KEY": {
+    "id": 0,
+    "userName": "userName"
+  },
+  "ALL_USERS_KEY": {
+    "users": [
+      {
+        "id": "Date in ms = new Date().getTime()",
+        "userName": "userName",
+        "firstName": "firstName",
+        "lastName": "lastName",
+        "email": "email@gmail.com",
+        "password": "password"
+      }
+    ]
+  },
+  "ALL_POSTS_KEY": {
+    "posts": [
+      {
+        "id": "Date in ms = new Date().getTime()",
+        "title": "title",
+        "text": "text",
+        "userName": "userName",
+        "postedDate": "Date in ms = new Date().getTime()"
+      }
+    ]
+  }
+}

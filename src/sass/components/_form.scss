@@ -1,0 +1,23 @@
+@import "../abstracts/functions";
+
+.sign-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: margin(4) !important;
+  margin-bottom: margin(4) !important;
+  padding: 10px;
+  background: transparent;
+  box-shadow: 3px 3px 23px 10px white;
+  border-radius: 5px;
+}
+
+.sign-input-form {
+  width: 100%; // Fix IE 11 issue.
+  margin-top: margin(1);
+}
+
+.add-post-form {
+  @extend .sign-main;
+  max-width: 1024px;
+}

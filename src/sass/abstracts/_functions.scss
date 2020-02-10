@@ -1,0 +1,7 @@
+@function margin($one: 0) {
+  @return temp($one);
+}
+
+@function temp($par) {
+  @return 0.5 * $par + rem;
+}

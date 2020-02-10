@@ -1,0 +1,7 @@
+@import "../abstracts/variables";
+@import "../abstracts/functions";
+
+.sign-avatar {
+  margin: margin(1);
+  background-color: $material-primary-color !important;
+}

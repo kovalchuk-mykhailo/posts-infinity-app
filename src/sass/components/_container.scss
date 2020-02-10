@@ -1,0 +1,21 @@
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navLinksContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navBarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 10vh auto;
+  background: #333;
+  box-shadow: 10px 10px 10px white;
+}

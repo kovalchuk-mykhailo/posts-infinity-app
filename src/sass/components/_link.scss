@@ -1,0 +1,19 @@
+.welcomeLink {
+  color: orangered;
+  margin: 10px;
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+.navLink {
+  color: whitesmoke;
+  margin: 10px;
+  font-size: x-large;
+  text-shadow: 1px 2px 10px black;
+}
+
+.welcomeLink:hover,
+.navLink:hover {
+  color: blue;
+  text-shadow: 3px 2px 10px grey;
+}

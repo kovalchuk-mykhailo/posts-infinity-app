@@ -1,0 +1,13 @@
+@import "../abstracts/variables";
+
+.Default-Wrapper {
+  // background: linear-gradient(to bottom, #e7ffb3, #707070);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  min-height: $page-height;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+.Welcome {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  padding-block-start: 1rem;
+  text-shadow: 2px 1px 5px grey;
+}
+
+.Welcome h3 {
+  color: blueviolet;
+}
