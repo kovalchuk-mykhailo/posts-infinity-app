@@ -1,6 +1,6 @@
 const ALL_POSTS_KEY = "ALL_POSTS_KEY";
 
-const getAllPostsFromStorage = () => {
+export const getAllPostsFromStorage = () => {
   const allPosts = JSON.parse(localStorage.getItem(ALL_POSTS_KEY));
   console.log("All posts: ", allPosts);
   return (allPosts && allPosts.posts) || [];
